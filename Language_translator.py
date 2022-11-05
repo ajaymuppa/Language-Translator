@@ -13,7 +13,7 @@ Screen.title("Language Translator - Ajay")
 Screen.geometry("919x847")
 
 
-upload= Image.open("3.jpg")
+upload= Image.open("Background_image.jpg")
 image=ImageTk.PhotoImage(upload)
 label= Label(Screen,image=image,height = 900, width =920)
 label.place(x=0,y=0)
